@@ -35,13 +35,13 @@ This project describes how to automate web automation tests with Selenium framew
 Clone the project
 
 ```bash
-  git clone https://github.com/hakantektas/qaYoungTalent2023Mobven.git
+  git clone https://github.com/hakantektas/qaYoungTalentSelenium.git
 ```
 
 Go to the project directory.
 
 ```bash
-  cd [yourPath]/qaYoungTalent2023Mobven
+  cd [yourPath]/qaYoungTalentSelenium
 ```
 
 Allure report install
@@ -56,7 +56,7 @@ brew install allure
 Run your tests via terminal.
 
 ```bash
-  mvn -Dtest=searchCase test
+  mvn -Dtest=signUpTest test
 
 ```
 
@@ -70,7 +70,7 @@ Run the following command in terminal to generate an Allure report.
 Run your tests via terminal. 
 
 ```bash
-  mvn -Dtest=searchCase test
+  mvn -Dtest=signUpTest test
 
   
 ## Kullanım/Örnekler
