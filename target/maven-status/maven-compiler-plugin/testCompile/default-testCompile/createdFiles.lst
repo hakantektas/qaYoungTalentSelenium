@@ -1,0 +1,10 @@
+PageFactoryTest/signUpTestPageFactory.class
+PageClass/homePage.class
+PageFactory/homePage2.class
+PageClass/signUpPage.class
+PageFactory/signUpPage2.class
+PageFactory/mainFunction2.class
+TestClass/signUpTest.class
+DriverFactory/driverManager.class
+PageFactory/driverManager2.class
+Common/mainFunction.class

@@ -1,9 +1,10 @@
 package TestClass;
 
 import Common.mainFunction;
-import DriverFactory.driverManager;
 import PageClass.homePage;
 import PageClass.signUpPage;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.io.IOException;

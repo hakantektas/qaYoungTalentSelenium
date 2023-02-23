@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" thread-count="2" name="Parallel Test example" parallel="tests">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="PageFactoryTest.signUpTestPageFactory">
+            </class>
+            <class name="TestClass.signUpTest">
+                <methods>
+                    <include name="homePageUrlControl"/>
+                    <include name="signUpFail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" thread-count="1" name="Parallel Test example Safari" parallel="tests">
+        <parameter name="browserName" value="safari"></parameter>
+        <classes>
+            <class name="TestClass.signUpTest">
+                <methods>
+                    <include name="homePageUrlControl"/>
+                    <include name="signUpFail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" thread-count="5" name="Parallel Test example Firefox" parallel="tests">
+        <parameter name="browserName" value="Firefox"></parameter>
+        <classes>
+            <class name="TestClass.signUpTest">
+            </class>
+        </classes>
+    </test>
+</suite>
